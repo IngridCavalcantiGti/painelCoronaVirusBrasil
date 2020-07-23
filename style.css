@@ -1,0 +1,115 @@
+#conteudoTopo{
+        text-align: center;
+        color: white;   
+        font-family: 'Segoe UI' ; 
+        padding-bottom: 10px;      
+}
+
+#topo{
+    border:solid 0.5px  teal;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    line-height: 1px;  
+    background: rgb(71,138,76);
+    background: linear-gradient(0deg, rgba(71,138,76,1) 12%, rgba(100,196,90,1) 38%, rgba(49,120,44,1) 100%);
+    border-bottom: 2px  solid  teal;      
+}
+
+#estadonoPainel{
+    top: 100px;
+    position: fixed;
+    color: teal;
+    font-size: 25px;  
+}
+
+#dateTime{
+    top: 140px;
+    position: fixed;
+    left: 20px;
+    font-size: 12px;
+
+}
+
+.div{
+    background-color: white; 
+    padding: 50px;
+    width: 100px;
+    height: 50px;
+    border-radius: 10px;
+    border:solid 1px  rgb(235, 227, 227);
+    margin-left: 10px;
+    margin-right: 5px;
+    border-bottom: 5px  solid teal;           
+}
+
+.divPai{
+        height: 50vh;   
+        display: flex;
+        justify-content: center;
+        align-items: center;   
+}
+
+#casosConfirmados{  
+    color:  rgb(109, 105, 105) ; 
+    margin-top:  auto;
+}
+
+#casosSuspeitos{    
+    color:  rgb(109, 105, 105) ; 
+    margin-top:  auto;
+}
+
+#obitosConfirmados{ 
+    color:  rgb(109, 105, 105) ; 
+    margin-top:  auto;
+}
+
+#tabelaEstados{
+  width: 100%;
+  border-bottom: rgb(109, 105, 105) 1px solid;  
+  background-color: rgb(124, 216, 128);
+  color: rgb(109, 105, 105) ;  
+  box-shadow: teal 1px 3px;
+}
+
+.btnEstado{
+    cursor: pointer;
+}
+
+.btnEstado:hover{
+color: rgb(219, 230, 226);
+font-weight: 700;
+}
+
+#obitosConfirmadosAjax{
+    font-size: 25px;
+    color: #B22222;
+}
+#casosSuspeitosAjax{
+    font-size: 25px;
+    color: rgb(27, 105, 69);
+}
+#casosConfirmadosAjax{
+    font-size: 25px;
+    color: rgb(27, 105, 69);
+}
+
+#footer{
+    padding: 10px;
+    margin-top: 200px ;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;  
+    background-color:rgb(0, 0, 0);
+    border-top:solid 0.5px  white;   
+}
+
+#nameFooter{
+    text-align: center;
+    color: white;
+}
+
+
