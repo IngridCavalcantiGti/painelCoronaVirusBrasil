@@ -1,64 +1,71 @@
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Covid-19</title>
+    <title>COVID</title>
     <link rel="stylesheet" type="text/css" href="style.css">
-  <div id="topo">
-    <h1 id='conteudoTopo'>Painel Coronavírus Brasil</h1>
-</div>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/all.min.css">
+	<script src='js/bootstrap.min.js'></script>
+    <script src='js/all.min.js'></script>
+    
+        <div class="topo navbar-center ">
+            <h1 class='conteudoTopo'>Painel Coronavírus Brasil</h1>
+        </div>
+        
+      
 </head>
 <body>
-    <div class="divPai">
-        <div id="dateTime"></div>
-        <div id="estadonoPainel">
-            <h2></h2>
-           </div>
-    <div class='div'>
-        <h3 id="casosSuspeitos">Casos Suspeitos<br><span id="casosSuspeitosAjax"></span></h3>   
-    </div>
-    <div class='div'>     
-        <h3 id="casosConfirmados">Casos confirmados<br><span id="casosConfirmadosAjax"></span></h3>   
-    </div>
-    <div class='div'>      
-        <h3 id="obitosConfirmados">Óbitos Confirmados<br><span id="obitosConfirmadosAjax"></span></h3>
-    </div>
-</div>
-<div class="nameTable">
-    <table id="tabelaEstados">
-        <tr>  
-            <td id="AC" class="btnEstado">AC</td>  
-            <td id="AL" class="btnEstado">AL</td>
-            <td id="AP" class="btnEstado">AP</td>
-            <td id="AM" class="btnEstado">AM</td>
-            <td id="BA" class="btnEstado">BA</td>
-            <td id="CE" class="btnEstado">CE</td>
-            <td id="DF" class="btnEstado">DF</td>
-            <td id="ES" class="btnEstado">ES</td>
-            <td id="GO" class="btnEstado">GO</td>
-            <td id="MA" class="btnEstado">MA</td>
-            <td id="MT" class="btnEstado">MT</td>
-            <td id="MS" class="btnEstado">MS</td>
-            <td id="MG" class="btnEstado">MG</td>
-            <td id="PA" class="btnEstado">PA</td>
-            <td id="PB" class="btnEstado">PB</td>
-            <td id="PE" class="btnEstado">PE</td>
-            <td id="PI" class="btnEstado">PI</td>
-            <td id="RJ" class="btnEstado">RJ</td>
-            <td id="RN" class="btnEstado">RN</td>
-            <td id="RS" class="btnEstado">RS</td>
-            <td id="RO" class="btnEstado">RO</td>
-            <td id="RR" class="btnEstado">RR</td>
-            <td id="SC" class="btnEstado">SC</td>
-            <td id="SP" class="btnEstado">SP</td>
-            <td id="SE" class="btnEstado">SE</td>
-            <td id="TO" class="btnEstado">TO</td>   
-        </tr>
-    </table>
+    
+    <div class="divPai"> 
+        <div id="estadonoPainel"></div>    
+        </div>    
+       </div>                                           
+        <div class="container">
+            <div class="row justify-content-md-center">
+              <div class="col-md div">
+                <h3 id="casosSuspeitos">Casos Suspeitos <br><span id="casosSuspeitosAjax"></span></h3>   
+              </div>
+              <div class="col-md div">
+                <h3 id="casosConfirmados">Casos confirmados<br><span id="casosConfirmadosAjax"></span></h3> 
+              </div>
+              <div class="col-md div">
+                <h3 id="obitosConfirmados">Óbitos Confirmados<br><span id="obitosConfirmadosAjax"></span></h3>
+              </div>
+            </div>
+            <div class="row justify-content-md-center nameTable tabelaEstados col"> 
+                    <ol id="AC" class="btnEstado ">AC</ol>
+                    <ol id="AL" class="btnEstado ">AL</ol>
+                    <ol id="AM" class="btnEstado ">AM</ol>
+                    <ol id="AP" class="btnEstado ">AP</ol>
+                    <ol id="BA" class="btnEstado ">BA</ol>
+                    <ol id="CE" class="btnEstado ">CE</ol>
+                    <ol id="DF" class="btnEstado ">DF</ol>
+                    <ol id="ES" class="btnEstado ">ES</ol>
+                    <ol id="GO" class="btnEstado ">GO</ol>
+                    <ol id="MA" class="btnEstado ">MA</ol>
+                    <ol id="MT" class="btnEstado">MT</ol>
+                    <ol id="MS" class="btnEstado ">MS</ol>
+                    <ol id="MG" class="btnEstado ">MG</ol>
+                    <ol id="PA" class="btnEstado ">PA</ol>
+                    <ol id="PB" class="btnEstado ">PB</ol>
+                    <ol id="PE" class="btnEstado ">PE</ol>
+                    <ol id="PI" class="btnEstado ">PI</ol>
+                    <ol id="RJ" class="btnEstado ">RJ</ol>
+                    <ol id="RN" class="btnEstado ">RN</ol>
+                    <ol id="RS" class="btnEstado ">RS</ol>
+                    <ol id="RO" class="btnEstado ">RO</ol>
+                    <ol id="RR" class="btnEstado ">RR</ol>
+                    <ol id="SC" class="btnEstado ">SC</ol>
+                    <ol id="SP" class="btnEstado ">SP</ol>
+                    <ol id="SE" class="btnEstado ">SE</ol>
+                    <ol id="TO" class="btnEstado ">TO</ol>
+            </div>
+            <div id="dateTime"></div>  
+      </div>
     <script src="main.js"></script>
 </body>
- <footer id="footer">
-    <div id="nameFooter">Copyright © 2020 - Ingrid Cavalcanti. Todos os direitos reservados</div> 
- </footer>
 </html>
